@@ -1,0 +1,37 @@
+@mixin text {
+    font-family: $opensans;
+     font-size: 14px;
+    font-weight: $bold;
+    text-transform: uppercase;
+    color:#f1f2f2;
+    letter-spacing: 2px;
+}
+@mixin banner-bg {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+@mixin banner-info {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+@mixin title {
+    margin-bottom: 52px;
+    border:none !important;
+    text-align: center;
+    padding: 0 !important;
+    padding-bottom: 16px !important;
+}
+
+

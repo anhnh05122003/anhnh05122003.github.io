@@ -1,0 +1,192 @@
+@import 'style.scss';
+@media only screen and (min-width: 992px) {
+    // header
+    .header-bottom .menu{
+        .text {
+            padding: 0 3px !important;
+            }
+        .home {
+            padding: 0 3px 0 0 !important ;
+        }
+        .megamenu {
+            padding: 0 0 0 3px  !important;
+        }
+    }
+    // support
+    .support {
+        .content-support {
+            .content {
+                width: 381px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    // header
+    .header-bottom {
+        background: #000 !important;
+        .text {
+            display: none;
+        }
+        .home {
+            display: none;
+        }
+        .megamenu {
+            display: none;
+        }
+        .image {
+            padding:5px 0 !important;
+        }
+        .header-menu {
+            margin-top: 0 !important;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            .button {
+                display: none;
+            }
+            .account{
+                font-size: 40px;
+            }
+            .bag {
+                font-size: 40px;
+            }
+        }
+        .search-box {
+            margin: 0 !important;
+            position: absolute !important;
+            transform: translateY(-50%);
+            .search {
+                display: none;
+            }
+            .search-submit {
+                color: #fff !important;
+                font-size: 40px;
+            }
+        }
+    }
+    // support
+    .support {
+        .content-support {
+            .content {
+                width: auto !important;
+            }
+        }
+    }
+    // banner
+    .banner .product-banner .picture {
+        margin-top: 50px;
+    }
+    .banner .content-product {
+        margin-top: 40px;
+    }
+    //support
+    .info-footer .content {
+            margin-bottom: 36px !important;
+    }
+    .support{
+        .content-support{
+            .icon {
+                text-align: center;
+                display: block;
+            }
+        }
+        .infomation {
+            .email {
+                width: 100% !important;
+            }
+            .seen-support {
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+// slide
+    .slide {
+        .content-slide {
+            .button {
+                min-width: 120px  !important;
+            }
+            .title {
+                font-size: 25px !important;
+            }
+            .text {
+                font-size: 10px !important;
+            }
+        }
+    }
+//    intro
+    .intro {
+        .intro-content {
+            width: 300px;
+            .text {
+                font-size:18px !important;
+                line-height: 16px !important;
+            }
+            .link {
+                font-size: 12px !important;
+            }
+        }
+    } 
+    // footer
+    .footer-top {
+        .intro-footer {
+            justify-content: center !important;
+            text-align: center;
+            .title::before {
+                transform: translateX(-50%);
+                left: 50%;
+            }
+        }
+    }
+    .footer-bottom {
+        .list-icon {
+            justify-content: center;
+        }
+        .list {
+            justify-content: center !important;
+        }
+        .info {
+            margin: 10px !important;
+        }
+    }
+    // new
+    .new-title {
+        .button {
+            min-width: 250px !important;
+            height: 45px !important;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    // intro
+    .intro {
+        .intro-content {
+            width: 263px  !important;
+            .text {
+                font-size:12px !important ;
+                line-height: 5px !important;
+            }
+            .link {
+                font-size: 7px !important;
+            }
+        }
+    }
+    // header
+    .header-menu {
+        .account{
+            font-size: 30px !important;
+        }
+        .bag {
+            font-size: 30px !important;
+        }
+        .search-box {
+            .search-submit {
+                font-size: 30px !important;
+            }
+        } 
+    }
+
+}

@@ -1,0 +1,56 @@
+@import 'style.scss';
+// banner
+.banner {
+    .product-banner:hover  .banner-bg {
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .product-banner:hover  .banner-bg-product {
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .product-banner:hover .banner-info {
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .product-banner:hover img {
+        transform: scale(1.05);
+        transition: transform .3s ease-in-out;
+        overflow: hidden;
+    }
+}
+// intro
+    .new {
+        .new-content {
+            .intro:hover .icon{
+                opacity: 1;
+                transition: opacity .5s ease-in-out;
+            }
+            .intro:hover .coating{
+                opacity: 0.6;
+                transition: all .5s ease-in-out;
+            }
+            .intro:hover .image{
+                transform: scale(1.5,1.5);
+                transition: transform 5s ease-in-out;
+            }
+        }
+    }
+// introduce product
+.introduce-product {
+    .tab-pane {
+        .product:hover .menu {
+            opacity: 1;
+            visibility: visible;
+        }
+        .product:hover .menu .menu-icon .icon {
+            transform: translateX(-0);
+            transition: transform 0.5s ease-in-out;
+        }
+        .product .menu .menu-icon .icon:hover {
+            background: #f33c3c;
+            color: #fff;
+            transition: all .3s ease-in-out;
+        }
+    }
+}
